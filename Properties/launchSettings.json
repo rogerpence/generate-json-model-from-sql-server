@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "generate-json-model-from-sql-server": {
+      "commandName": "Project",
+      "commandLineArgs": "generate -d peabody -t stored-procs-crud-template.sql "
+    },
+    "test1": {
+      "commandName": "Project",
+      "commandLineArgs": "test -i roger"
+    },
+    "test2": {
+      "commandName": "Project",
+      "commandLineArgs": "test -i roger pence"
+    }
+  }
+}
